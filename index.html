@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center mt-4"> My <span class="text-primary">Book</span> List</h1>
+        </header>
+        <form>
+            <div class="form-group mt-4">
+                <label for="tittle">Tittle</label>
+                <input type="text" id="f-tittle" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <label for="Author">Author</label>
+                <input type="text" id="f-author" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <label for="book-id">Book Id</label>
+                <input type="text" id="f-book-id" class="form-control">
+            </div>
+            <button id="f-button" class="btn btn-success btn-block mt-4 " type="submit">Add Book</button>
+        </form>
+        <table class="table table-striped mt-5">
+            <thead class="thead-dark text-center">
+                <tr>
+                    <th>Tittle</th>
+                    <th>Author</th>
+                    <th>Book Id</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="t-body" class="text-center">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
